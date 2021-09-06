@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<body>
+<header th:fragment="header">
+    <a th:href="@{/}"><img th:src="@{/img/logo.png}"/></a>
+    <nav>
+        <ul>
+            <li><a th:href="@{/step1}">step 1</a></li>
+            <li><a th:href="@{/step2}">step 2</a></li>
+            <li><a th:href="@{/step3}">step 3</a></li>
+        </ul>
+    </nav>
+</header>
+</body>
+</html>

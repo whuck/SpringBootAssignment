@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>step1</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<img th:src="@{/img/student.png}" alt="student"/>
+<h1>Step 1</h1>
+<h2>First thing's first...</h2>
+<p>In order to properly procrastinate, first thing one must do is:<em>find something else to do.</em></p>
+<div th:insert="fragments/_footer :: footer"></div>
+</body>
+</html>

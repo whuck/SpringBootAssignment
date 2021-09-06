@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:th="http://thymeleaf.org">
+<head>
+    <meta charset="UTF-8">
+    <title>Hucks Spring Boot Assignment</title>
+    <link rel="stylesheet" th:href="@{/style.css}">
+</head>
+<body>
+<div th:insert="fragments/_header :: header"></div>
+<h1>Hi,</h1>
+<h2>welcome to Huck University</h2>
+<p>This site is dedicated to providing an in-shallow tutorial on how to Properly Procrastinate.</p>
+<div th:replace="fragments/_footer :: footer"></div>
+</body>
+</html>
